@@ -1,0 +1,193 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Notlogin</title>
+</head>
+
+<style>
+html { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c0/LA_San_Gabriel_Mountains.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+.sel {
+    border: 0 none;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    width: 378px;
+
+}
+
+.mainselection {
+    overflow: hidden;
+    width: 350px;	
+    box-shadow: 1px 1px 11px #330033;
+    background: url("arrow.gif") no-repeat scroll 319px 5px #58B14C;
+
+}
+.sele {
+    border: 0 none;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+    width: 140px;
+
+
+
+}
+
+.mainsele {
+    overflow: hidden;
+    width: 110px;	
+    box-shadow: 1px 1px 11px #330033;
+    background: url("arrow.gif") no-repeat scroll 319px 5px #58B14C;
+    text-align: center;
+
+}
+
+
+h1 {  
+	text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: 1px solid black;
+
+}
+
+h2 {position: static;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+h4 {
+    text-align: right;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+h5 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.button {
+    background-color: #FE2EC8;
+    border: none;
+    color: white;
+    padding: 20px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+	
+.dropbtn {
+    background-color: #5F04B4;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 500px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #5F04B4;
+}
+.search {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+</style>
+</head>
+<div class="container">
+<a href="/" style="text-decoration:none" ><h2 >RealDate&reg<hr></h2></a></div>
+<body>
+
+
+<h2><%= $loginReminder %></h2>
+<br>
+<br>
+<br>
+<pre></pre>
+
+<form method="POST" action="/loginuser/">
+<h3>Username: <input type="text" name="username" style="height: 30px;"> </br>
+ Password:  <input type="password" name="password" style="height: 30px;"> </br>
+
+<input type= "submit" value= "login" class="search">
+</form>
+
+<p font-size=50px >OR</p>
+<a href="/" class="button" >Start dating for real!!!</a> 
+
+<pre></pre>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<p><h3>Finding true happiness!!!</h3></p>
+
+</body>
+</html>

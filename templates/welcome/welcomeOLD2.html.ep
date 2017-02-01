@@ -1,0 +1,131 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Search</title>
+</head>
+
+<style>
+html { 
+  background: url(http://specials-images.forbesimg.com/imageserve/0aQz5YteBC5F7/0x600.jpg?fit=scale&background=000000) no-repeat center fixed; 
+  background-size: cover;
+}
+
+h1 {  
+    text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: 1px solid black;
+
+}
+
+h2 {position: static;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+h4 {
+    text-align: right;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+.search {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+.header {
+	text-decoration: none;
+}
+
+</style>
+<a href="/" style="text-decoration:none" ><h2 >RealDate&reg<hr></h2></a>
+<a href="/login" style="text-decoration:none"><h4>Already dating?<pre></h4></a> 
+<body>
+
+<h2>How to date for real</h2>
+<h3>Search people in your area</h3>
+<h3>
+<form method="POST">
+I am a: 
+<select name="iam">
+     <option value="M">Man</option>
+     <option value="W">Woman</option>
+</select>
+seeking: 
+<select name="seek">
+  <option value="W">Woman</option>
+  <option value="M">Man</option>
+  <option value="ANY">undecided</option>
+</select><br>
+Age between 
+<select name="ageStart">
+  <option value="00250000">25</option>
+  <option value="00260000">26</option>
+  <option value="00270000">27</option>
+  <option value="00280000">28</option>
+  <option value="00290000">29</option>
+  <option value="00300000">30</option>
+</select>
+and
+<select name="ageEnd">
+  <option value="00250000">25</option>
+  <option value="00260000">26</option>
+  <option value="00270000">27</option>
+  <option value="00280000">28</option>
+  <option value="00290000">29</option>
+  <option value="00300000">30</option>
+</select> <br>
+zipcode: <input type="text" name="zipcode"><br>
+<input type="submit" value="Search" class="search">
+</form>
+</h3>
+<br>
+<pre></pre>
+<br>
+<pre></pre>
+<br>
+<br>
+<pre></pre>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<p><h3>Finding true happiness!!!</h3></p>
+</body> 

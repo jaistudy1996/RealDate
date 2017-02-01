@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Welcome to RealDate!</title>
+</head>
+
+<style>
+html { 
+  background: url(http://cdn.bigbangfish.com/city/688045-city-background.jpg) no-repeat center fixed; 
+  background-size: cover;
+
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: 1px solid transparent;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+.search {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}    
+.header {
+	text-decoration: none;
+}
+
+
+</style>
+
+<a href="/" style="text-decoration:none"><h1>RealDate<hr><pre></h1></a>
+
+<body>
+
+<form method="POST" action="/loginuser/">
+<h2>Username: <input type= "text" name = "username"> </br>
+Password: <input type= "password" name = "password"> </br>
+<input type= "submit" value= "login" class="search">
+</form>
+
+<p font-size=50px >OR</p>
+<a href="/" class="button" >Start dating for real!!!</a> 
+</h2>
+</body>

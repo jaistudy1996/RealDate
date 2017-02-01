@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { 
+  /* background: url(https://upload.wikimedia.org/wikipedia/commons/archive/2/27/20090227193751!Saltlakecity_winter2009.jpg) no-repeat center fixed; 
+  background-size: cover; */
+  background-color: #6F9BE3;
+}
+
+.sel {
+    border: 0 none;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    width: 378px;
+
+}
+
+.mainselection {
+/*  overflow: hidden;*/
+    width: 350px;	
+    box-shadow: 1px 1px 11px #330033;
+    background: url("arrow.gif") no-repeat scroll 319px 5px #58B14C;
+
+}
+.sele {
+    border: 0 none;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+    width: 140px;
+
+
+
+}
+
+.mainsele {
+    overflow: hidden;
+    width: 110px;	
+    box-shadow: 1px 1px 11px #330033;
+    background: url("arrow.gif") no-repeat scroll 319px 5px #58B14C;
+    text-align: center;
+
+}
+
+
+h1 {  
+	text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: 1px solid black;
+
+}
+
+h2 {position: static;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: none;
+}
+
+h3 {
+    text-align: left;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+h4 {
+    text-align: right;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+h5 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+h6 {position: static;
+    text-align: left;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: none;
+}
+
+
+.button {
+    background-color: #FE2EC8;
+    border: none;
+    color: white;
+    padding: 20px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #8E44AD;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+	
+.dropbtn {
+    background-color: #5F04B4;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 500px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #5F04B4;
+}
+
+div.relative {
+    position: relative;
+    width: 1420px;
+    height: 800px;
+    border: 3px solid #73AD21;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 230px;
+    right: 0;
+    width: 1000px;
+    height: 800px;
+    border: 3px solid #73AD21;
+}
+div.abso {
+    position: static;
+    top: 200px;
+    right: 0;
+    width: 700px;
+    height: 300px;
+    border: 3px solid #73AD21;
+}
+div.absolu {
+    position: absolute;
+    top: 230px;
+    left:2;
+    right: 0;
+    width: 950px;
+    height: 800px;
+    border: 3px solid #73AD21;
+}
+td:nth-child(2) {
+    border-right: 10px solid transparent;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+th:nth-child(2) {
+    border-right: 10px solid transparent;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+</style>
+</head>
+<div class="container">
+<a href="/" style="text-decoration:none" ><h2 >RealDate&reg<hr></h2></a></div>
+<a href="/login" style="text-decoration:none"><h4>Login or Signup here<pre></h4></a> 
+<h4><br><pre></h4> 
+
+
+
+<body>
+<h3>
+<table border="1">
+<tr>
+    <th>Profile Picture</th>
+    <th>User Name</th>
+    <th>Date of birth</th>
+    <th>Zip-Code</th>
+    <th>City</th>
+</tr>
+  % foreach my $r (@$resulting) {
+             <tr>
+                <td><img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" width="150" height="150" style="float:left; padding: 10px 25px 5px 10px" alt="picture of me"></td>
+                <td><%= $r->[0] %></td>
+                <td><%= $r->[1] %></td>
+                <td><%= $r->[2] %></td>
+                <td><%= $r->[3 ]%></td>
+             </tr>
+
+        % }
+</table>
+
+</h3>
+
+
+</body>

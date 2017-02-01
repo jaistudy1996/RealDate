@@ -1,0 +1,158 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Welcome to RealDate!</title>
+</head>
+
+<style>
+html { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/archive/2/27/20090227193751!Saltlakecity_winter2009.jpg) no-repeat center fixed; 
+  background-size: cover;
+
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: 1px solid transparent;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+.search {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}    
+.header {
+	text-decoration: none;
+}
+
+
+</style><style>
+html { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/archive/2/27/20090227193751!Saltlakecity_winter2009.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+h1 {  
+	text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: 1px solid transparent;
+
+}
+
+
+h2 {position: static;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    border: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.button {
+    background-color: #FE2EC8;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+.search {
+    background-color: #8E448E;
+    border: none;
+    color: white;
+    padding: 11px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+.header {
+	text-decoration: none;
+}
+
+
+</style>
+
+<a href="/" style="text-decoration:none"><h2>RealDate<hr><pre></h2></a>
+<br>
+</pre>
+<body>
+
+<form method="POST" action="/loginuser/">
+<h3>Username: <input type= "text" name = "username"> </br>
+Password: <input type= "password" name = "password"> </br>
+<input type= "submit" value= "login" class="search">
+</form>
+
+<p font-size=50px >OR</p>
+<a href="/signup" class="button" >Start dating for real!!!</a> 
+</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

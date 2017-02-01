@@ -1,0 +1,13 @@
+<!doctype html>
+
+<title>Welcome <%= $username %></title>
+
+<body>
+
+<p> You password was : <%= $password %> </p>
+<p>Value is : <%= $value %></p>
+
+
+<a href="/profile">profiel link</a>
+</body>
+</html>

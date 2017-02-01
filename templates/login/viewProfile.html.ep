@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { 
+  background: url(http://www.humanityforhorses.org/images/blue-sky-background.gif) no-repeat center fixed; 
+  background-size: cover;
+}
+.sel {
+    border: 0 none;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    width: 378px;
+
+}
+
+.mainselection {
+    overflow: hidden;
+    width: 350px;	
+    box-shadow: 1px 1px 11px #330033;
+    background: url("arrow.gif") no-repeat scroll 319px 5px #58B14C;
+
+}
+.sele {
+    border: 0 none;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+    width: 140px;
+
+
+
+}
+
+.mainsele {
+    overflow: hidden;
+    width: 110px;	
+    box-shadow: 1px 1px 11px #330033;
+    background: url("arrow.gif") no-repeat scroll 319px 5px #58B14C;
+    text-align: center;
+
+}
+
+
+h1 {  
+	text-align: left;
+    font-size: 50px;
+    font-style: italic
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    border: 1px solid black;
+
+}
+
+h2 {position: static;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: Black;
+    border: none;
+}
+
+h3 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+}
+h5 {
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+}
+.button1 {
+    background-color: #6960EC;
+    border: none;
+    color: white;
+    padding: 15px 61px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 0px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #6960EC;
+    border: none;
+    color: white;
+    padding: 15px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 0px;
+    cursor: pointer;
+    
+}
+.button3 {
+    background-color: #6960EC;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 0px;
+    cursor: pointer;
+    }
+.button4 {
+    background-color: #6960EC;
+    border: none;
+    color: white;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 0px;
+    cursor: pointer;
+    }
+
+.search {
+    background-color: #F75D59;
+    border: none;
+    color: white;
+    padding: 11px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+.button5 {
+    background-color: #7D3C98;
+    border: none;
+    color: white;
+    padding: 11px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 0px;
+    cursor: pointer;
+    }
+   
+.cities {
+    background-color:transparent;
+    color:black;
+    margin:0px;
+    padding:0px;
+}
+
+div.relative {
+    position: relative;
+    width: 1420px;
+    height: 800px;
+    border: none;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 1000px;
+    height: 800px;
+    border: none;
+}
+div.abso {
+    position: static;
+    top: 0px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+div.absolu {
+    position: absolute;
+    top: 600px;
+    left:1;
+    right: 0;
+    width: 700px;
+    height: 350px;
+    border: none;
+}
+</style>
+</head>
+<body>
+<a href="/" style="text-decoration:none" ><h2>RealDate&reg<hr></h2></a></div>
+<h3><a href="/changePassword" class="search" >Change your password</a>  <a href="/logout" class= "search">Logout</a></br></h3>
+<div class="relative"><img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" width="100" height="100" style="float:left; padding: 10px 25px 5px 10px" alt="picture of me"><br>
+<h5><%=$userName%> <br>
+<%=$dob%><br>
+<%=$city%><br>
+<%=$state%> <%=$zipcode%><br></h5>
+
+
+<h5>
+<p class="button1" >VIEWS     </p><br>
+<p class="button2" >SPARKS    </p> <br>
+<p class="button3" >INBOX     </p> <br>
+<p class="button4" >FAVORITES </p>
+</h5>
+
+
+  <div class="absolute"><img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" width="450" height="350" style="float:left; padding: 10px 25px 5px 10px" alt="picture of me"><br><pre><br><pre>
+  <h5 class="button5" >SEARCH     </h5>
+  <h5 class="button5" >SUBSCRIBE    </h5>
+  <h5 class="button5" >UPLOAD PICTURES</h5> <br>
+  </h5><img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" width="100" height="100" style="float:left; padding: 10px 25px 5px 10px" alt="picture of me"><img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" width="100" height="100" style="float:left; padding: 10px 25px 5px 10px" alt="picture of me"><img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" width="100" height="100" style="float:left; padding: 10px 25px 5px 10px" alt="picture of me">
+  <br>
+
+  <pre>
+
+  <h5>
+
+	Drinks: <%=$drinks%><br>
+	Smokes: <%=$smokes%><br>
+	Pets: <%=$pets%> <br>
+	Kids: <%=$kids%><br>
+	Marital Status: <%=$maritalStatus%><br>
+	Height: <%=$height%><br>
+	Weight: <%=$weight%><br>
+
+</h5></div>
+</div>
+  <div class="absolu"><!-- <h5>About me: <br>
+        $aboutme</h5> -->
+  	</div>
+  
+  
+  <br>
+<hr>
+
+<p><h4>Finding true happiness!!!</h4></p>
+
+</body>
+</html>
+  	
+</body>
+</html>

@@ -1,0 +1,9 @@
+% layout 'default';
+% title 'Welcome';
+
+<p>Hello: <%= $againMsg%></p>
+<p>learn more, you can also browse through the documentation</p>
+<%= link_to 'here' => '/perldoc' %>.
+<br><br>
+<%= link_to 'login' => '/login' %>.
+

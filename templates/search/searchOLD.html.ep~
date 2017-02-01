@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+<title>Search Results</title>
+</head>
+
+<body>
+<table>
+	<th>User Name</th>
+	<th>Age</th>
+	<th>Zip Code Location</th>
+	
+	% for my $r (@$resulting) {
+	   % for my $tr (@$r){
+	     <tr>
+	         <td>%= $tr %</td>
+	     </tr>
+	   % }
+	% }
+
+
+</table>
+</body>
+</html>

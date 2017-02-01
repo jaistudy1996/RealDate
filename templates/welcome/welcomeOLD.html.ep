@@ -1,0 +1,63 @@
+% layout 'default';
+% title 'Welcome to RealDate';
+
+<h1><%= link_to RealDate => '/' %></h1>
+<form id="signup" method="POST">
+
+I am a:
+<select name="seekType">
+  <option selected disabled>Select a choice from the list</option>
+  <option value="Man1">Man seeking woman</option>
+  <option value="wom1">Woman seeking man</option>
+  <option value="man2">Man seeking man</option>
+  <option value="wom2">woman seeking woman</option>
+  <option value="Any">undecided</option>
+<br>
+</select>
+
+&nbsp &nbsp &nbsp
+
+BirthDate: 
+<select name="month">
+  <option selected disabled>Month</option>
+  <option value="Jan">January</option>
+  <option value="Feb">February</option>
+  <option value="Mar">March</option>
+  <option value="Apr">April</option>
+</select>
+
+<select name="day">
+  <option selected disabled>Day</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+
+<select name="year">
+  <option selected disabled>Year</option>
+  <option value="1990">1990</option>
+  <option value="1991">1991</option>
+  <option value="1992">1992</option>
+<option value="1993">1993</option>
+
+<br><br>
+
+</select> <br><br>
+  City: <input type="text" name="city"> &nbsp &nbsp
+  zipcode: <input type="text" name="zipcode"><br><br>
+  Email: <input type= "text" name="email"><br><br>
+  Password: <input type= "password" name= "password"> &nbsp &nbsp
+  Repeat Password <input type="password">
+
+<br><br><br>
+<input type="submit" value="Sign Up!">
+</form>
+<!-- %= submit_button 'login' -->
+
+<h3>Already a user?</h3>
+<form id="loginuser" method="POST" action="/loginuser/">
+Username: <input type="text" name="username"> <br>
+Password: <input type= "password" name = "password"> <br>
+<input type= "submit" value= "login"><br>
+</form>

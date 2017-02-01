@@ -1,0 +1,22 @@
+package RealDate::Controller::Search;
+use Mojo::Base 'Mojolicious::Controller';
+use RealDate::Model::Search;
+
+sub searching
+{
+   my $self = shift;
+   my $ageEnd = $self->param('ageEnd');
+   my $ageStart = $self->param('ageStart');
+   my $gender = $self->param('seek');
+   my $zipcode = $self->param('zipcode');
+
+   my $resultingResult = RealDate::Model::Search::searchUsersWithoutLoggingIn($gender, $ageEnd, $ageStart, $zipcode);
+   #my @resultsReturn = @results[0];
+   #my $test = scalar @resultingResult;
+   $self->stash(resulting=>$resultingResult);
+   # $self->render(text=>"$test, $ageStart, $ageEnd");
+   $self->render(template=>'search/search'); #, results=>$results);
+   #$self->redirect_to('/search');
+}
+
+1;

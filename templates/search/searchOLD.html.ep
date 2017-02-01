@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+<title>Search Results</title>
+</head>
+
+<body>
+<table>
+	<th>User Name</th>
+	<th>Age</th>
+	<th>Zip Code Location</th>
+	
+	% foreach my $r (@$resulting) {
+	     <tr>
+		<td><%= $r->[0] %></td>
+		<td><%= $r->[1] %></td>
+		<td><%= $r->[2] %></td>
+		<td><%= $r->[3 ]%></td>
+	     </tr>
+
+	% }
+
+
+</table>
+</body>
+</html>
